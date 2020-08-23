@@ -12,7 +12,7 @@ const publicDirectoryPath = path.join(__dirname, '../public')
 app.use(express.static(publicDirectoryPath))
 
 const server = app.listen(port, () => {
-    console.log(`Server running on ${port}`);
+    console.log(`Server is running on ${port}`);
 })
 
 
